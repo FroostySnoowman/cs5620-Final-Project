@@ -8,15 +8,16 @@
 
 ---
 
-## What is being submitted (code)
+## What is being submitted
 
 For privacy and confidentiality, **only these items** are uploaded with this assignment:
 
-- **`coachai/`**
-- **`old/`**
-- This **`README.md`** file (instructions and how to run the code)
+- **`coachai/`** — current Match Coach (Wrangler / Workers AI tooling)
+- **`old/`** — earlier Python pipeline (models, coach NLG, tests)
+- **`README.md`** — this file (how to run the code)
+- **`CS 5620 Final Report.pdf`** — written final report (see [Final report](#final-report))
 
-No other application code, API, database, or proprietary assets are included. The **PDF final report** describes the full system the course project is based on (including UI and integration); screenshots and narrative there stand in for code I am not sharing.
+No other application code, API, database, or proprietary assets are included. The report describes the full system the course project is based on (including UI and integration); screenshots and narrative there stand in for code that is not shared here.
 
 ---
 
@@ -83,4 +84,4 @@ Then follow **`old/README.md`** inside that folder for training (optional), infe
 
 ## Final report
 
-The written final report for this project: **[CS 5620 Final Report](CS%205620%20Final%20Report.pdf)**.
+The written final report for this project: **[CS 5620 Final Report](./CS%205620%20Final%20Report.pdf)** (same directory as this `README.md`).
