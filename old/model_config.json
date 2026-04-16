@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "input_dim": 25,
+  "num_classes": 4,
+  "contrast_len": 19,
+  "weights_path": "strategy_model.pt"
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "description": "Optional extra coach lines per tactical key. Edit freely; merged with built-ins and combinatorial generation.",
+  "by_key": {
+    "net_advantage": [
+      "Front-court math is on your side—take the short ball when it's clean.",
+      "Finish forward: your net conversion is the cleanest edge in this read."
+    ],
+    "net_weakness": [
+      "Glue them to the baseline before you gamble forward.",
+      "Make them earn the short ball—don't donate approach angles."
+    ]
+  },
+  "greetings": [],
+  "closers": [],
+  "sign_offs": []
+}

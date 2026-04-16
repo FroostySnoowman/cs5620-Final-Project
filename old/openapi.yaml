@@ -1,0 +1,52 @@
+openapi: 3.0.3
+info:
+  title: BreakPoint AI Analyze API
+  version: "1.0.0"
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        "200":
+          description: OK
+  /analyze:
+    post:
+      summary: Run full recommendation + optional NLG + coach voice
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AnalyzeRequest"
+      responses:
+        "200":
+          description: Same shape as `recommend_from_match` return value
+components:
+  schemas:
+    AnalyzeRequest:
+      type: object
+      required: [match, focal_id, opponent_id]
+      properties:
+        match:
+          type: object
+          description: Full tennis match JSON
+        focal_id:
+          type: string
+        opponent_id:
+          type: string
+        include_nlg:
+          type: boolean
+          default: true
+        include_coach_voice:
+          type: boolean
+          default: true
+        nlg_seed:
+          type: integer
+          nullable: true
+        session_nonce:
+          type: string
+          nullable: true
+        local_coach_lm:
+          type: boolean
+          default: false
+          description: Optional on-device synonym shims for coach text (no API)
