@@ -14,7 +14,7 @@ For privacy and confidentiality, **only these items** are uploaded with this ass
 
 - **`coachai/`**
 - **`old/`**
-- This **`CLASS.md`** file (instructions and how to run the code)
+- This **`README.md`** file (instructions and how to run the code)
 
 No other application code, API, database, or proprietary assets are included. The **PDF final report** describes the full system the course project is based on (including UI and integration); screenshots and narrative there stand in for code I am not sharing.
 
@@ -22,7 +22,7 @@ No other application code, API, database, or proprietary assets are included. Th
 
 ## Purpose
 
-This document accompanies the submitted folders: what each folder is and how to run it. The **written final report** is submitted separately as a PDF.
+This document accompanies the submitted folders: what each folder is and how to run it. The **written final report** is included with the submission; see [Final report](#final-report) below for the PDF.
 
 ---
 
