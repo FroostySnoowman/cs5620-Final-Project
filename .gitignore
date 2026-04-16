@@ -1,0 +1,46 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# Node (coachai/)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+# Wrangler / Cloudflare Workers
+.wrangler/
+.mf/
+dist/
+
+# Python (old/)
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.idea/
+*.swp
+*.swo
+*~

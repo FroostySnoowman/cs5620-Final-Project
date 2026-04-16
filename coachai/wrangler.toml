@@ -1,0 +1,26 @@
+name = "coachai"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+account_id = "1375a493110484a42c26f22fcda1478c"
+
+[placement]
+mode = "smart"
+
+[ai]
+binding = "AI"
+
+[dev]
+port = 8790
+
+[env.dev]
+name = "coachai-dev"
+
+[env.dev.ai]
+binding = "AI"
+
+[env.production]
+name = "coachai"
+
+[env.production.ai]
+binding = "AI"
