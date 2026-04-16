@@ -81,6 +81,6 @@ Then follow **`old/README.md`** inside that folder for training (optional), infe
 
 ---
 
-## Final report (submitted separately)
+## Final report
 
-The PDF follows the course outline (title page, abstract, problem, background, approach, results, next steps, APA references, citation minimums for my level). Length follows the course guidelines.
+The written final report for this project: **[CS 5620 Final Report](CS%205620%20Final%20Report.pdf)**.
