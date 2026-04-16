@@ -1,0 +1,42 @@
+{
+  "summary": "Rafael Nadal lost to Roger Federer in a closely contested match, with a strong serve and winners, but facing challenges with his return and unforced errors.",
+  "strengths": [
+    "Strong serve with a first serve win percentage of 62%",
+    "High break point save percentage of 70%",
+    "Effective net play with a net win percentage of 86%"
+  ],
+  "weaknesses": [
+    "High unforced error count of 17 in the rally",
+    "Low return win percentage of 34%",
+    "Inconsistent return performance with a first return win percentage of 25%"
+  ],
+  "drills": [
+    {
+      "name": "Serve and Move Drill",
+      "focus": "Increase first serve speed and accuracy",
+      "duration": "30 minutes"
+    },
+    {
+      "name": "Return to Tension Drill",
+      "focus": "Improve return consistency and reduce unforced errors",
+      "duration": "45 minutes"
+    },
+    {
+      "name": "Net Play Drill",
+      "focus": "Develop net play skills and strategies",
+      "duration": "20 minutes"
+    },
+    {
+      "name": "Rally Extension Drill",
+      "focus": "Increase rally length and reduce unforced errors",
+      "duration": "30 minutes"
+    }
+  ],
+  "focusAreas": [
+    "Serve and return consistency",
+    "Reducing unforced errors in the rally",
+    "Improving return performance"
+  ],
+  "model": "@cf/meta/llama-3.1-8b-instruct-fp8-fast",
+  "generatedAt": "2026-04-13T02:15:16.169Z"
+}

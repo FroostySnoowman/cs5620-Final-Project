@@ -1,0 +1,65 @@
+{
+  "coaching": {
+    "insights": [
+      {
+        "title": "Increase Second Serve Win Percentage",
+        "detail": "Roger Federer is converting 48% of your second serves, which is higher than your overall first serve win percentage. Focus on making more accurate second serves to put pressure on Federer.",
+        "urgency": "high"
+      },
+      {
+        "title": "Target Shorter Points to Regain Momentum",
+        "detail": "You've been in longer rallies, but your recent momentum suggests that shorter points can be won. Refocus on quick, precise shots to take control of the point and turn the match around.",
+        "urgency": "medium"
+      },
+      {
+        "title": "Manage Your Errors on the Return",
+        "detail": "You're currently making 25 return errors, which is affecting your overall return game. Make sure to be more patient and precise on your returns to limit the number of errors and create more break opportunities.",
+        "urgency": "low"
+      }
+    ],
+    "model": "@cf/meta/llama-3.1-8b-instruct-fp8-fast",
+    "generatedAt": "2026-04-13T02:15:02.763Z"
+  },
+  "training": {
+    "summary": "Rafael Nadal lost to Roger Federer in a closely contested match, with a strong serve and winners, but facing challenges with his return and unforced errors.",
+    "strengths": [
+      "Strong serve with a first serve win percentage of 62%",
+      "High break point save percentage of 70%",
+      "Effective net play with a net win percentage of 86%"
+    ],
+    "weaknesses": [
+      "High unforced error count of 17 in the rally",
+      "Low return win percentage of 34%",
+      "Inconsistent return performance with a first return win percentage of 25%"
+    ],
+    "drills": [
+      {
+        "name": "Serve and Move Drill",
+        "focus": "Increase first serve speed and accuracy",
+        "duration": "30 minutes"
+      },
+      {
+        "name": "Return to Tension Drill",
+        "focus": "Improve return consistency and reduce unforced errors",
+        "duration": "45 minutes"
+      },
+      {
+        "name": "Net Play Drill",
+        "focus": "Develop net play skills and strategies",
+        "duration": "20 minutes"
+      },
+      {
+        "name": "Rally Extension Drill",
+        "focus": "Increase rally length and reduce unforced errors",
+        "duration": "30 minutes"
+      }
+    ],
+    "focusAreas": [
+      "Serve and return consistency",
+      "Reducing unforced errors in the rally",
+      "Improving return performance"
+    ],
+    "model": "@cf/meta/llama-3.1-8b-instruct-fp8-fast",
+    "generatedAt": "2026-04-13T02:15:16.169Z"
+  }
+}

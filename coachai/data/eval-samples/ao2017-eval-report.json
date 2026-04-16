@@ -1,0 +1,154 @@
+{
+  "presentationRubric": {
+    "title": "Project presentation (typical 10 pt breakdown)",
+    "criteria": [
+      {
+        "id": "problem",
+        "label": "Statement of the problem",
+        "points": 2,
+        "prompts": [
+          "Motivate the work: why is raw match data hard to turn into strategy?",
+          "Who struggles (e.g. club players without a coach courtside)?"
+        ]
+      },
+      {
+        "id": "related_work",
+        "label": "Related work",
+        "points": 2,
+        "prompts": [
+          "Name 1–2 similar systems (commercial apps, research tutors, generic ChatGPT-on-stats).",
+          "What is different or better here (on-device flow, structured stats → constrained JSON, Workers AI, etc.)?"
+        ]
+      },
+      {
+        "id": "skills",
+        "label": "Skills / knowledge you address",
+        "points": 2,
+        "prompts": [
+          "Declarative: reading stats (serve %, break points, rally length).",
+          "Procedural: what to try next (target weakness, change risk).",
+          "Metacognitive: reflecting after the match (training plan)."
+        ]
+      },
+      {
+        "id": "interaction",
+        "label": "How learners interact",
+        "points": 2,
+        "prompts": [
+          "Logging points → milestone banner → opening coach sheet (choices + timing).",
+          "Errors: sparse logging, wrong player, skipping advanced actions — how does the tutor degrade?",
+          "Post-match: open training plan after completion."
+        ]
+      },
+      {
+        "id": "ai_techniques",
+        "label": "AI techniques used",
+        "points": 2,
+        "prompts": [
+          "Rule-based feature extraction from match_stats JSON (inputs to the model).",
+          "LLM with strict JSON schema (Workers AI) + caching to control cost.",
+          "Show one screenshot: extracted snippet + model output side by side."
+        ]
+      }
+    ]
+  },
+  "coaching": {
+    "checks": [
+      {
+        "id": "insights_array",
+        "label": "`insights` is an array",
+        "pass": true
+      },
+      {
+        "id": "insights_count",
+        "label": "Exactly 3 insights (matches product contract)",
+        "pass": true,
+        "detail": "length=3"
+      },
+      {
+        "id": "i0_title",
+        "label": "Insight 1 has title",
+        "pass": true
+      },
+      {
+        "id": "i0_detail",
+        "label": "Insight 1 has detail (20–600 chars)",
+        "pass": true
+      },
+      {
+        "id": "i0_urgency",
+        "label": "Insight 1 urgency is high|medium|low",
+        "pass": true
+      },
+      {
+        "id": "i1_title",
+        "label": "Insight 2 has title",
+        "pass": true
+      },
+      {
+        "id": "i1_detail",
+        "label": "Insight 2 has detail (20–600 chars)",
+        "pass": true
+      },
+      {
+        "id": "i1_urgency",
+        "label": "Insight 2 urgency is high|medium|low",
+        "pass": true
+      },
+      {
+        "id": "i2_title",
+        "label": "Insight 3 has title",
+        "pass": true
+      },
+      {
+        "id": "i2_detail",
+        "label": "Insight 3 has detail (20–600 chars)",
+        "pass": true
+      },
+      {
+        "id": "i2_urgency",
+        "label": "Insight 3 urgency is high|medium|low",
+        "pass": true
+      },
+      {
+        "id": "titles_distinct",
+        "label": "Insight titles are not all identical",
+        "pass": true
+      }
+    ],
+    "passed": 12,
+    "total": 12
+  },
+  "training": {
+    "checks": [
+      {
+        "id": "summary",
+        "label": "Summary present (20–1200 chars)",
+        "pass": true
+      },
+      {
+        "id": "strengths",
+        "label": "2–5 strengths, each ≥5 chars",
+        "pass": true
+      },
+      {
+        "id": "weaknesses",
+        "label": "2–5 weaknesses, each ≥5 chars",
+        "pass": true
+      },
+      {
+        "id": "drills",
+        "label": "3–6 drills with name, focus, duration",
+        "pass": true
+      },
+      {
+        "id": "focusAreas",
+        "label": "2–5 focus areas",
+        "pass": true
+      }
+    ],
+    "passed": 5,
+    "total": 5
+  },
+  "summary": "Coaching checks: 12/12 passed. Training checks: 5/5 passed."
+}
